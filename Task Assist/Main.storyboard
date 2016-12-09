@@ -129,6 +129,9 @@
                                 <state key="normal" title="Courses" image="Courses.png">
                                     <color key="titleColor" red="1" green="0.4092578710841388" blue="0.36570141260041011" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="110" y="109" width="163" height="96"/>
+                                </variation>
                                 <connections>
                                     <segue destination="RbN-DP-fTt" kind="show" identifier="courses" id="t2T-tb-9zl"/>
                                 </connections>
@@ -153,6 +156,9 @@
                                         <include reference="aMH-Ne-eqz"/>
                                         <include reference="qId-39-v9Y"/>
                                     </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="110" y="242" width="146" height="96"/>
                                 </variation>
                                 <connections>
                                     <segue destination="2bL-DH-z3R" kind="show" identifier="job" id="lbv-u9-gOb"/>
@@ -1360,6 +1366,9 @@
                                         <include reference="FSt-Vc-jyU"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="32" y="187" width="336" height="30"/>
+                                </variation>
                                 <connections>
                                     <outlet property="delegate" destination="7Kp-ig-GUG" id="E62-yw-rZA"/>
                                 </connections>
@@ -1380,9 +1389,12 @@
                                         <include reference="ehl-M7-yrS"/>
                                     </mask>
                                 </variation>
+                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="69" y="107" width="235" height="30"/>
+                                </variation>
                                 <connections>
                                     <action selector="popOverToGetAccessToken:" destination="7Kp-ig-GUG" eventType="touchUpInside" id="bxp-xc-4FU"/>
-                                    <segue destination="PQ5-AI-onq" kind="popoverPresentation" popoverAnchorView="yJ4-Sa-TEE" id="Klf-SC-zmC">
+                                    <segue destination="PQ5-AI-onq" kind="popoverPresentation" identifier="tokenHelp" popoverAnchorView="yJ4-Sa-TEE" id="Klf-SC-zmC">
                                         <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
                                     </segue>
                                 </connections>
@@ -1392,6 +1404,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="94" y="20" width="185" height="37"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOh-qz-GRa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -1408,6 +1423,9 @@
                                     <mask key="constraints">
                                         <include reference="zxk-CY-Xl0"/>
                                     </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="168" y="280" width="38" height="30"/>
                                 </variation>
                                 <connections>
                                     <action selector="loginBTN:" destination="7Kp-ig-GUG" eventType="touchUpInside" id="YVx-GJ-B6n"/>
